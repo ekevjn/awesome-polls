@@ -5,4 +5,9 @@ before_script:
   - chmod 0777 ./node_modules/.bin/mocha
 install:
   - npm install
+deploy:
+  provider: heroku
+  api_key: "c2912df1-be4c-4431-b37e-b247c289effe"
+  app: "powerful-forest-82637"
+
 
