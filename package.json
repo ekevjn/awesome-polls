@@ -4,6 +4,7 @@
   "description": "An SSO application written on Nodejs and based on OAuth0",
   "main": "app.js",
   "dependencies": {
+    "auth0-js": "^8.8.0",
     "body-parser": "^1.17.2",
     "connect-ensure-login": "^0.1.1",
     "cookie-parser": "^1.4.3",
@@ -13,8 +14,8 @@
     "express-session": "^1.15.3",
     "jade": "^1.11.0",
     "morgan": "^1.8.2",
-    "passport-auth0": "^0.6.0",
-    "passport": "^0.3.2"
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
